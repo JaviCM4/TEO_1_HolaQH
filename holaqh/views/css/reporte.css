@@ -1,0 +1,188 @@
+.reporte-body {
+    font-family: Arial, sans-serif;
+    background-color: #746c6c;
+}
+
+.contenedor-form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-reporte {
+    width: 500px;
+    height: 480px;
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 16px;
+    border: 2px solid #000000;
+    background: rgb(255, 255, 255);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.areaTexto {
+    width: 100%;
+    height: 200px;
+    padding: 0.75rem;
+    border: 2px solid #575454;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    resize: none;
+    background-color: #8b8787;
+}
+
+
+
+
+/* Estilos de los Mensajes de Reporte */
+.contenedor-principal {
+    display: flex;
+    justify-content: center;
+}
+.contenedor-mensajes {
+    width: 1200px;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 16px;
+    margin-bottom: 50px;
+    border: 3px solid #000;
+    background-color: #ff9a16;
+    font-family: Arial, sans-serif;
+}
+.contenedor-vacio {
+    width: 500px;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 16px;
+    margin-bottom: 50px;
+    border: 3px solid #000;
+    background-color: #ff9a16;
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #38f3cb;
+    margin-top: 10px;
+}
+.tabla-mensajes {
+    max-height: 400px;
+    overflow-y: auto;
+}
+#tab-mensajes th {
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #000;
+    background-color: #fa31df;
+}
+#tab-mensajes td {
+    padding: 10px;
+    text-align: left;
+    border: 3px solid #000;
+    background-color: #ffffff;
+}
+.columna-fecha {
+    width: 130px;
+}
+
+
+/* Estilo de la Ficha de Detalles */
+.ficha {
+    width: 89%;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #000;
+    background-color: #8fff5b;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ficha h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ficha p {
+    margin: 8px 0;
+}
+
+.grupo {
+    margin-top: 15px;
+    border-top: 2px solid #000000;
+    padding-top: 15px;
+}
+
+.grupo h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.grupo > div {
+    margin-bottom: 15px;
+}
+
+/* Botones */
+.button {
+    width: 40%;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 16px;
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: #325dd4;
+    color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    padding: 12px 25px 12px 25px;
+}
+.button:hover {
+    background-color: #190aec;
+}
+#boton-ignorar {
+    margin-left: 15px;
+    background-color: #da1818;
+}
+#boton-ignorar:hover {
+    background-color: #aa0909;
+}
+#boton-separacion {
+    margin-right: 15px;
+}
+.button-enlace {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button-enlace:hover {
+    background-color: #0056b3;
+}
+.imagen-ficha {
+    width: 100%; /* Ajusta el ancho según sea necesario */
+    height: auto; /* Mantiene la relación de aspecto */
+    border-radius: 8px; /* Opcional: bordes redondeados */
+    padding: 25px;
+}
+.grupo p i {
+    margin-right: 8px;
+    color: #007bff;
+    vertical-align: middle;
+}
+
+.imagen-reporte {
+    border-radius: 8px;
+}

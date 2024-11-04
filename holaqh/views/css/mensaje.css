@@ -1,0 +1,131 @@
+.mensaje-body {
+    font-family: Arial, sans-serif;
+    background-color: #746c6c;
+}
+
+.contenedor-principal { margin: 50px; }
+
+/* Estilo del Form */
+.contenedor-form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-reporte {
+    width: 550px;
+    height: 410px;
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 16px;
+    border: 2px solid #000000;
+    background: rgb(255, 255, 255);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+.areaTexto {
+    width: 100%;
+    height: 180px;
+    padding: 0.75rem;
+    border: 2px solid #575454;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    resize: none;
+    background-color: #8b8787;
+}
+
+/* Estilo de los Mensajes */
+.contenedor-principal {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-mensajes {
+    width: 1200px;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 16px;
+    margin-bottom: 50px;
+    border: 3px solid #000;
+    background-color: #ff9a16;
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #38f3cb;
+    margin-top: 10px;
+}
+.tabla-mensajes {
+    max-height: 400px;
+    overflow-y: auto;
+}
+#tab-mensajes th {
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #000;
+    background-color: #fa31df;
+}
+#tab-mensajes td {
+    padding: 10px;
+    text-align: left;
+    border: 3px solid #000;
+    background-color: #ffffff;
+}
+.columna-fecha {
+    width: 130px;
+}
+
+/* Estilo de los Enlaces Principales */
+.contenedor-principal-eliminacion {
+    margin: 50px;
+}
+.contenedor-enlaces {
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+.contenedor-enlaces-derechos {
+    margin-left: 85%;
+    margin-top: -1.3%;
+}
+
+.button {
+    width: 40%;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 16px;
+    text-decoration: none;
+    background-color: #325dd4;
+    color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    padding: 12px 25px 12px 25px;
+}
+.button:hover {
+    background-color: #190aec;
+}
+#boton-separacion {
+    margin-right: 15px;
+}
+#boton-eliminar {
+    width: 50%;
+    margin-left: 25%;
+    background-color: #da1818;
+}
+#boton-eliminar:hover {
+    background-color: #aa0909;
+}
+#boton-crear {
+    background-color: #11d421;
+}
+#boton-crear:hover {
+    background-color: #32a007;
+}

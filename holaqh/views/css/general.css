@@ -1,0 +1,35 @@
+.general-body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/fondo_inicio.jpg');
+}
+
+.ficha {
+    width: 96%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 16px;
+    background-color: #fff;
+    border: 2px solid #000000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 { color: #333; }
+p { color: #555; }
+ul { list-style-type: disc; }
+
+/* Estilo para los Enlaces */
+.button {
+    width: 40%;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 16px;
+    text-decoration: none;
+    background-color: #08a31c;
+    color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    padding: 12px 25px 12px 25px;
+}
+.button:hover {
+    background-color: #186604;
+}

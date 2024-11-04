@@ -1,0 +1,101 @@
+.detalle-body {
+    font-family: Arial, sans-serif;
+    background-color: #746c6c;
+}
+
+h2 { color: #333; }
+p { color: #555; }
+ul { list-style-type: disc; }
+
+.contenedor-principal { margin: 50px; }
+
+.contenedor-enlaces {
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+.contenedor-enlaces-derechos {
+    margin-left: 85%;
+    margin-top: -1.3%;
+}
+
+/* Estilo de la Ficha*/
+.ficha {
+    width: 96%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 16px;
+    border: 3px solid #000;
+    background-color: #8fff5b;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ficha h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ficha p {
+    margin: 8px 0;
+}
+
+.grupo {
+    margin-top: 15px;
+    border-top: 2px solid #000000;
+    padding-top: 15px;
+}
+
+.grupo h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.grupo > div {
+    margin-bottom: 15px;
+}
+
+.imagen-ficha {
+    width: 100%; /* Ajusta el ancho según sea necesario */
+    height: auto; /* Mantiene la relación de aspecto */
+    border-radius: 8px; /* Opcional: bordes redondeados */
+    padding: 25px;
+}
+.grupo p i {
+    margin-right: 8px;
+    color: #007bff;
+    vertical-align: middle;
+}
+
+
+/* Estilo para los Enlaces */
+.button {
+    width: 40%;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 16px;
+    text-decoration: none;
+    background-color: #325dd4;
+    color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    padding: 12px 25px 12px 25px;
+}
+.button:hover {
+    background-color: #190aec;
+}
+#boton-separacion {
+    margin-right: 15px;
+}
+#boton-cancelar-reportar {
+    background-color: #da1818;
+}
+#boton-cancelar-reportar:hover {
+    background-color: #aa0909;
+}
+#boton-crear {
+    background-color: #11d421;
+}
+#boton-crear:hover {
+    background-color: #32a007;
+}

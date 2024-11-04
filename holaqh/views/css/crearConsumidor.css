@@ -1,0 +1,96 @@
+.crear-consumidor-body {
+    font-family: Arial, sans-serif;
+    background-color: #746c6c;
+}
+
+.form-creacion {
+    width: 520px;
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 16px;
+    background: white;
+    border: 2px solid #000000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-seleccion {
+    margin-left: 30px;
+    margin-right: 50px;
+    height: 220px;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 16px;
+    background: white;
+    border: 2px solid #000000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.orientacion-horizontal {
+    display: flex;
+    flex-direction: row;
+    margin: -10px;
+    gap: 10px;
+}
+
+.orientacion-vertical {
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+#correoInput {
+    width: 286px;
+}
+#correoInputDos {
+    width: 286px;
+}
+
+#telefonoInput {
+    width: 150px;
+}
+#telefonoInputDos {
+    width: 150px;
+}
+
+#edadesInput {
+    margin-left: 45px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #072f9e;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin-top: 10px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.button:hover {
+    background-color: #4238c5;
+}
