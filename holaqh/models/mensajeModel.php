@@ -9,7 +9,7 @@
         }
 
         public function obtenerMensajes($usuario) {
-            $stmt = $this->pdo->prepare("SELECT * FROM mensajes WHERE id_receptor = ? ORDER BY fecha DESC;");
+            $stmt = $this->pdo->prepare("SELECT * FROM mensajes WHERE id_receptor = ? ORDER BY fecha DESC, no_mensaje DESC;");
             $stmt->execute([$usuario]);
             return $stmt->fetchAll(PDO::FETCH_ASSOC);
         }
